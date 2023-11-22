@@ -1,0 +1,11 @@
+/* seccion handshake */
+
+.logo-image img{
+    width: 100%;
+}
+
+.main {
+    background-color: black;
+    height: 1200px;
+    width: 1200px;
+}
