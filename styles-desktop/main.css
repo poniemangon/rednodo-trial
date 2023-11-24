@@ -5,10 +5,7 @@
     width: 100%;
 }
 
-.main {
-    height: 1200px;
-    width: 1200px;
-}
+
 
 
 .services-parent {
@@ -46,6 +43,8 @@
 }
 
 .services {
+    width: 100%;
+    max-width: 1200px;
     display: flex;
     flex-direction: row;
     padding: 2%;
@@ -83,7 +82,7 @@
 }
 
 .service-image img{
-    width: 100%;
+    width: 540px;
 }
 
 .service .button {
@@ -98,6 +97,7 @@
 
 .service .button:hover {
     cursor: pointer;
+    transition: ease-in-out 150ms;
 }
 
 
@@ -136,6 +136,7 @@
     background-color: #7EC5BD;
     color: white;
     cursor: pointer;
+    transition: ease-in-out 150ms;
 }
 
 .view-more2 p {
@@ -157,6 +158,7 @@
     background-color: #7EC5BD;
     color: white;
     cursor: pointer;
+    transition: ease-in-out 150ms;
 }
 
 .bridge {
@@ -180,12 +182,10 @@
 
 }
 
-.about-title .imagen {
-    width: 50%;
-}
 
-.about-title .imagen img{
-    width: 100%;
+
+.about-title  img{
+    width: 540px;
 
 }
 
@@ -231,6 +231,8 @@
 }
 
 .ultimos {
+    width: 100%;
+    max-width: 1200px;
     display: flex;
     flex-direction: row;
     background-color: #7EC5BD;
@@ -240,6 +242,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    max-width: 1200px;
     align-items: center;
     justify-content: center;
 
@@ -302,6 +305,7 @@ width: 100%;
     color: #7EC5BD;
     background-color: white;
     cursor: pointer;
+    transition: ease-in-out 150ms;
 }
 
 .contact-us {

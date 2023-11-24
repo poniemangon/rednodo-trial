@@ -29,6 +29,10 @@
 
 }
 
+.burger{
+    display: none;
+}
+
 .navbar {
     width: 50%;
     display: flex;
@@ -46,7 +50,7 @@
 
 .navbar .li-regular:hover{
     color:#7EC5BD;
-    transition: ease-in-out 50ms;
+    transition: ease-in-out 100ms;
     cursor: pointer;
 
 }

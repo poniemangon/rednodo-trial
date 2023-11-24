@@ -1,9 +1,9 @@
 .footer-container {
     display: flex;
-    flex-wrap: wrap;
     background-color: black;
-    justify-content: space-between;
-    padding-top: 8%;
+    padding-top: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .footer-container .logo {
@@ -27,6 +27,12 @@
     max-width: 100%; 
     padding: 0;
    
+}
+
+.footer-menus {
+    display: flex;
+    flex-direction: row;
+    width: 66%;
 }
 
 .footer-menu {
@@ -79,6 +85,7 @@
     background-color: #7EC5BD;
     display: flex;
     justify-content: center;
+    
 }
 
 .copyright p {

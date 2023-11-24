@@ -1,0 +1,168 @@
+@media (max-width: 1200px){
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .footer-menu {
+        max-width: 100%;
+      }
+    
+      .footer-menu ul {
+        text-align: center;
+        margin-top: 2%;
+      }
+    .services {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .bridge img {
+        max-width: 600px;
+        width: 90%;
+
+    }
+
+    .about-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        padding-top: 5%;
+    
+    }
+    
+
+    .ultimos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+
+    }
+
+    .ultimos .textos-box .contact-us {
+        justify-content: center;
+    }
+
+    .ultimos .textos-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25%;
+        padding-bottom: 5%;
+        padding-top: 10%;
+
+    }
+
+    .ultimos .textos-box p {
+        
+        text-align: center;
+    }
+
+    .ultimos .imagen {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ultimos .imagen img {        
+        width: 600px;
+    }
+
+    .footer-container .logo img{
+        max-width: 165px;
+    }
+    .footer-container .logo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 768px){
+
+    .logo-image-services{
+        padding-top: 100px;
+    }
+    .navbar {
+        display: none;
+    }
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo img {
+        padding: 0;
+    }
+    .menu-navbar {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        justify-content: center;
+        align-items: center;
+    }
+    .burger {
+        display: flex;
+
+    }
+
+    .burger i{
+        background-color: #7EC5BD;
+        color: white;
+        padding: 4px;
+        border-radius: 2px;
+    }
+}
+
+@media (max-width: 600px){
+
+
+
+    .service {
+        width: 100%;
+    }
+
+
+    .about-title img {
+        width: 100%;
+        max-width: 540px;
+    }
+    .ultimos .imagen img{
+        
+        max-width: 100%;
+    }
+
+    .service-image img{
+        width: 100%;
+        max-width: 540px;
+    }
+
+    .bridge img {
+        width: 90%;
+        margin: 10%;
+
+    }
+
+    .footer-container {
+        align-items: center;
+    }
+
+    .footer-menus {
+        flex-direction: column;
+    }
+
+
+}
