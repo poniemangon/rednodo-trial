@@ -1,5 +1,10 @@
 /* linea celeste arriba de menu fijo */
-
+.header{
+    position: fixed;
+    width: 100%;
+    max-width: 1200px;
+    z-index: 1;
+}
 .linea-celeste {
     background-color: #7EC5BD;
     height: 30px;
@@ -8,13 +13,19 @@
 
 /* menu fijo */
 
+.navbar li {
+    font-family: 'Nunito sans';
+    font-size: medium;
+    font-weight: 500;
+}
+
 .logo {
     width: 50%;
 }
 .logo img {
     padding: 5%;
     padding-left: 15%;
-    height: 50%;
+    height: 40%;
 
 }
 
@@ -32,11 +43,32 @@
     justify-content: center;
 
 }
+
+.navbar .li-regular:hover{
+    color:#7EC5BD;
+    transition: ease-in-out 50ms;
+    cursor: pointer;
+
+}
 .navbar li {
-    padding: 2%;
+    margin: 2%;
     text-align: center;
 }
 
+.contact {
+    padding: 3px;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #7EC5BD;
+    border-radius: 10px;
+    
+}
+.contact {
+     color: white;
+}
+.contact:hover {
+    cursor: pointer;
+}
 .menu-navbar {
     display: flex;
     flex-direction: row;

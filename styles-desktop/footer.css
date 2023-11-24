@@ -1,0 +1,90 @@
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    justify-content: space-between;
+    padding-top: 8%;
+}
+
+.footer-container .logo {
+    flex: 1;
+    max-width: 50%; 
+    margin: 4%;
+    margin-top: 0;
+}
+
+.footer-container .logo p{
+    color: white;
+    font-family: 'Open sans';
+    font-size:  13px;
+    margin-top: 8%;
+    line-height: 200%;
+}
+
+.footer-container .logo img {
+    width: 60%;
+    height: auto;
+    max-width: 100%; 
+    padding: 0;
+   
+}
+
+.footer-menu {
+    flex: 1;
+    margin: 4%;
+    margin-top: 0;
+}
+
+.footer-menu h5 {
+    font-family: "Open sans";
+    font-weight: 800;
+    color: white;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 2%;
+}
+
+.footer-menu ul {
+    list-style: none;
+    padding: 0;
+    border-top: 1px solid #575757;
+    margin-top: 4%;
+    
+}
+
+.footer-menu .li-regular:hover {
+    color: #7EC5BD;
+    transition: ease-in-out 100ms;
+    cursor: pointer;
+}
+
+.footer-menu li {
+    font-family: "Open sans";
+    color: white;
+    margin-top: 3%;
+    margin-left: 0%;
+    text-align: start;
+    font-size: small;
+    margin-bottom: 5%;
+}
+
+.fa-instagram {
+    background-color: white;
+    color: black;
+    padding: 1%;
+    border-radius: 2px;
+}
+
+.copyright{
+    background-color: #7EC5BD;
+    display: flex;
+    justify-content: center;
+}
+
+.copyright p {
+    font-family: 'Roboto';
+    margin: 1%;
+    color: black;
+    font-size: small;
+    font-weight: 500;
+}

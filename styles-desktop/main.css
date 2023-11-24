@@ -1,11 +1,316 @@
 /* seccion handshake */
 
 .logo-image img{
+    margin-top: 130px;
     width: 100%;
 }
 
 .main {
-    background-color: black;
     height: 1200px;
     width: 1200px;
+}
+
+
+.services-parent {
+    margin-bottom: 3%;
+}
+
+.services-title-parent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.services-title {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 400px;
+}
+
+.services-title h1{
+    
+    font-size: 45px;
+    font-weight: 800;
+    color: #7EC5BD;
+    margin-bottom: 0;
+    
+
+}
+
+.services-title p{
+    font-size: 16px;
+    margin-top: 1%;
+    font-weight: 500;
+    font-family: 'Open sans';
+    -webkit-line-clamp: 2; 
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+
+   
+}
+.service {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+
+   
+
+}
+.service .description {
+    display: flex;
+    justify-content: center;
+}
+
+.service p {
+ 
+    text-align: center;
+    font-size: small;
+    width: 80%;
+}
+
+.service-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Panton W01 Regular";
+    font-weight: 600;
+}
+
+.service-image img{
+    width: 100%;
+}
+
+.service .button {
+    background-color: #7EC5BD;
+    color: white;
+    position: absolute;
+    width: 18%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.service .button:hover {
+    cursor: pointer;
+}
+
+
+.view-more {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+    
+}
+
+.view-more2 {
+    display: flex;
+    width: 100%;
+   
+    
+}
+
+
+.view-more p {
+    margin: 0;
+    padding: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: #7EC5BD;
+    border: 3px solid #7EC5BD;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Nunito sans', sans-serif;
+  
+}
+
+.view-more p:hover{
+    transition: 10ms;
+    background-color: #7EC5BD;
+    color: white;
+    cursor: pointer;
+}
+
+.view-more2 p {
+    margin: 0;
+    padding: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: #7EC5BD;
+    border: 3px solid #7EC5BD;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Nunito sans', sans-serif;
+  
+}
+
+.view-more2 p:hover{
+    transition: 10ms;
+    background-color: #7EC5BD;
+    color: white;
+    cursor: pointer;
+}
+
+.bridge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7EC5BD;
+    width: 100%;
+}
+
+.bridge img {
+    width: 600px;
+    margin: 50px;
+}
+
+.about-title {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+
+}
+
+.about-title .imagen {
+    width: 50%;
+}
+
+.about-title .imagen img{
+    width: 100%;
+
+}
+
+.about-title .text {
+
+    width: 50%;
+    padding: 5%;
+    padding-top: 0;
+}
+
+.about-title .text h2{
+    font-family: 'Nunito sans', sans-serif;
+    font-weight: 900;
+    font-size: 38px;
+    color: #7EC5BD;
+    margin-bottom: 1%;
+}
+
+.mini-text p {
+    margin-top: 2%;
+    padding-right: 8%;
+   font-size: 14px;
+   font-family: "Open sans";
+   font-weight: 500;
+
+    
+}
+
+.mini-text h3{
+    margin-top: 0;
+    margin-bottom: 2px;
+    font-weight: 800;
+    color: #7EC5BD;
+    font-family: 'Nunito sans', sans-serif;
+
+}
+
+
+.text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ultimos {
+    display: flex;
+    flex-direction: row;
+    background-color: #7EC5BD;
+}
+
+.ultimos .textos {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+.ultimos h2{
+    font-family: 'Nunito sans';
+    color: white;
+    font-weight: 800;
+    font-size: 45px;
+    margin: 0;
+}
+
+.ultimos .textos .copete {
+    font-family: 'Open sans';
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: white;
+    margin: 0;
+    
+}
+
+.ultimos .textos .lorem {
+    font-family: 'Roboto';
+    font-weight: 300;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+
+    margin: 0;
+    margin-bottom: 5%;
+}
+
+.ultimos .imagen {
+    width: 100%;
+
+}
+.ultimos .imagen img {
+width: 100%;
+}
+
+.contact-us p {
+    margin: 0;
+    padding: 5px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: small;
+    font-family: 'Nunito sans', sans-serif;
+  
+}
+
+.contact-us p:hover{
+    transition: 10ms;
+    color: #7EC5BD;
+    background-color: white;
+    cursor: pointer;
+}
+
+.contact-us {
+    display: flex;
+    width: 100%;
+   
+    
+}
+
+.textos-box {
+    padding: 15%
 }
