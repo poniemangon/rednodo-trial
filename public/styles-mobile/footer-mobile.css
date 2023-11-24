@@ -1,4 +1,8 @@
 @media (max-width: 1200px){
+
+    .navbar-mobile{
+        display: none;
+    }
     .footer-container {
         display: flex;
         flex-direction: column;
@@ -81,6 +85,7 @@
         max-width: 165px;
     }
     .footer-container .logo{
+        background-color: black;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -92,12 +97,19 @@
 
 @media (max-width: 768px){
 
+    .logo-image img{
+        padding-top: 0;
+        width: 100%;
+    }
+
     .logo-image-services{
         padding-top: 100px;
     }
     .navbar {
         display: none;
     }
+    
+
     .logo {
         display: flex;
         justify-content: center;
@@ -110,7 +122,7 @@
     .menu-navbar {
         display: flex;
         flex-direction: column;
-        height: 200px;
+        height: 100px;
         justify-content: center;
         align-items: center;
     }
@@ -120,10 +132,9 @@
     }
 
     .burger i{
-        background-color: #7EC5BD;
-        color: white;
+        color: #7EC5BD;
         padding: 4px;
-        border-radius: 2px;
+   
     }
 }
 

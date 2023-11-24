@@ -13,6 +13,11 @@
 
 /* menu fijo */
 
+
+.navbar-mobile{
+    display: none;
+}
+
 .navbar li {
     font-family: 'Nunito sans';
     font-size: medium;
@@ -48,6 +53,7 @@
 
 }
 
+
 .navbar .li-regular:hover{
     color:#7EC5BD;
     transition: ease-in-out 100ms;
@@ -58,6 +64,49 @@
     margin: 2%;
     text-align: center;
 }
+
+/* navbar dentro del burger */
+
+.navbar-burger li {
+    font-family: 'Nunito sans';
+    font-size: medium;
+    font-weight: 500;
+
+}
+
+.navbar-burger {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar-burger{
+    display: none;
+    
+}
+.navbar-burger ul {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+
+}
+
+
+.navbar-burger.li-regular:hover{
+    color:#7EC5BD;
+    transition: ease-in-out 100ms;
+    cursor: pointer;
+
+}
+.navbar-burger li {
+    margin: 2%;
+    text-align: center;
+}
+
+/* fin */
 
 .contact {
     padding: 3px;
@@ -79,5 +128,6 @@
     justify-content: space-between;
     height: 100px;
     background-color: white;
+    
 }
 
