@@ -48,13 +48,13 @@
     }
 
 
-    .logo{
+    .navbar-mobile .logo{
         background-color: white;
         width: 100%;
         z-index: 2;
         
     }
-    .logo img {
+    .navbar-mobile .logo img {
         margin: 10%;
         width: 140px;
         left: 20%;

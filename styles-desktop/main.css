@@ -5,6 +5,18 @@
     width: 100%;
 }
 
+.logo-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo-image .logo {
+    position: absolute;
+    width: 300px;
+}
+
 
 
 

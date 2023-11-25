@@ -178,5 +178,13 @@
         flex-direction: column;
     }
 
+    .logo-image {
+        margin-top: 10%;
+    }
+
+    .logo-image .logo {
+        width: 200px;
+    }
+
 
 }
