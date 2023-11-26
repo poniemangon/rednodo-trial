@@ -26,6 +26,10 @@
         padding: 0;
     }
 
+    .services .service p {
+        width: 100%;
+    }
+
     .bridge img {
         max-width: 600px;
         width: 90%;
