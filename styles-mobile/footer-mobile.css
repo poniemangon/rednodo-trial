@@ -147,7 +147,28 @@
 
 @media (max-width: 600px){
 
+    .services-title {
+        width: 100%;
+        height: 100%;
+    }
 
+    .services-title h1{
+        width: 100%;
+        height: 100%;
+        font-size: 35px;
+        letter-spacing: 1px;
+        font-weight: 900;
+        color: #7EC5BD;
+        margin-bottom: 0;
+        
+    
+    }
+
+    .services-title p{
+        width: 100%;
+        height: 100%;
+        font-size: 15px;
+    }
 
     .service {
         width: 100%;
