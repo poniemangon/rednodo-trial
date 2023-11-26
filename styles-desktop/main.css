@@ -103,6 +103,7 @@
 }
 
 .service .button {
+    transition: ease-in-out 150ms;
     background-color: #7EC5BD;
     color: white;
     position: absolute;
@@ -112,11 +113,13 @@
     letter-spacing: 1px;
     font-size: medium;
     font-weight: 900;
+
 }
 
 .service .button:hover {
     cursor: pointer;
-    transition: ease-in-out 150ms;
+    width: 250px;
+    transition: ease-in-out 300ms;
 }
 
 
