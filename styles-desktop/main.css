@@ -33,13 +33,15 @@
     display: flex;
     text-align: center;
     flex-direction: column;
+    align-items: center;
     width: 400px;
 }
 
 .services-title h1{
-    
-    font-size: 45px;
-    font-weight: 800;
+    width: 420px;
+    font-size: 43px;
+    letter-spacing: 1px;
+    font-weight: 900;
     color: #7EC5BD;
     margin-bottom: 0;
     
@@ -47,9 +49,10 @@
 }
 
 .services-title p{
-    font-size: 16px;
+    width: 450px;
+    font-size: 18px;
     margin-top: 1%;
-    font-weight: 500;
+    font-weight: 400;
     font-family: 'Open sans';
     -webkit-line-clamp: 2; 
 }
@@ -59,7 +62,9 @@
     max-width: 1200px;
     display: flex;
     flex-direction: row;
-    padding: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    
 
    
 }
@@ -81,7 +86,7 @@
 .service p {
  
     text-align: center;
-    font-size: small;
+    font-size: 15px;
     width: 80%;
 }
 
@@ -94,17 +99,19 @@
 }
 
 .service-image img{
-    width: 540px;
+    width: 500px;
 }
 
 .service .button {
     background-color: #7EC5BD;
     color: white;
     position: absolute;
-    width: 18%;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    font-weight: bold;
+    width: 220px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    letter-spacing: 1px;
+    font-size: medium;
+    font-weight: 900;
 }
 
 .service .button:hover {
@@ -205,6 +212,7 @@
 
     width: 50%;
     padding: 5%;
+    padding-right: 0;
     padding-top: 0;
 }
 
@@ -218,7 +226,6 @@
 
 .mini-text p {
     margin-top: 2%;
-    padding-right: 8%;
    font-size: 14px;
    font-family: "Open sans";
    font-weight: 500;
